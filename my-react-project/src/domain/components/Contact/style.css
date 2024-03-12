@@ -1,0 +1,82 @@
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 10%, black 100%);
+  display: inline-block;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+.contact-content h4 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 10%, black 100%);
+  display: inline-block;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.contact-left > p {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.contact-left-information {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.contact-left-informations {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 6rem;
+}
+.contact-left-information p {
+  font-size: 1.2rem;
+}
+
+.contact-left-information_icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.contact-right input {
+  border: 1px solid #777777;
+  color: #777777;
+  outline: none;
+  padding: 1.4rem 1.6rem;
+  border-radius: 4px;
+}
+.contact-right-firstrow {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+.contact-right-contactrow,
+.contact-right-firstrow {
+  position: relative;
+}
+.contact-right-contactrow label,
+.contact-right-firstrow label {
+  background-color: #fff;
+  padding: 0.2rem;
+  position: absolute;
+  top: -0.9rem;
+  left: 1rem;
+}

@@ -1,0 +1,137 @@
+.nav {
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8rem 0;
+  margin: 0 auto;
+}
+.nav-language_toggle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-language_toggle p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-globe_icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-cta_cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 8px 20px 8px 20px;
+  line-height: 1.92rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--black);
+}
+.nav-cta_cart_icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.nav-burger_icon {
+  display: none;
+}
+.nav-cta p,
+.nav-cta button {
+  text-transform: uppercase;
+}
+
+@media (max-width: 940px) {
+  .nav {
+    padding: 8rem 10rem;
+  }
+}
+@media (max-width: 720px) {
+  .nav {
+    padding: 8rem 5rem;
+  }
+  .nav-logo img {
+    height: 1.5rem;
+    width: 8.999rem;
+  }
+  .nav-cta p {
+    font-size: 1.2rem;
+  }
+  .nav-cta_cart_icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .btn {
+    font-size: 1.2rem !important;
+  }
+  .nav-language_toggle p {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .nav-cta {
+    gap: 0;
+  }
+}
+@media (max-width: 500px) {
+  .nav {
+    padding: 8rem 2rem;
+  }
+  .nav-logo img {
+    height: 1.5rem;
+    width: 8.999rem;
+  }
+  .nav-cta p {
+    font-size: 1.2rem;
+  }
+  .nav-cta_cart_icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .btn {
+    font-size: 1.2rem !important;
+  }
+  .nav-language_toggle p {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .nav-cta {
+    gap: 0;
+  }
+}
+@media (max-width: 393px) {
+  .nav {
+    padding: 8rem 3.2rem;
+  }
+  .nav-language_toggle p {
+    display: none;
+  }
+  .nav-logo img {
+    height: 2.014rem;
+    width: 8.999rem;
+  }
+  .nav-cta_cart p {
+    display: none;
+  }
+  .nav-burger_icon {
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+  .nav-globe_icon {
+    display: none;
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+  .nav-cta {
+    gap: 1.6rem;
+  }
+  .nav-cta_cart_icon {
+    margin-right: -2rem;
+  }
+}

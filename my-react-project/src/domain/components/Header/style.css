@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  min-height: 120rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./assets/images/back1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem 22rem;
+}
+.header-section2 {
+  max-width: 120rem;
+}
+.header-section1 p {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.header-section1 h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 10%, black 100%);
+  display: inline-block;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.header-section1_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-bottom: 7.2rem;
+}
+.header-section1_links p {
+  cursor: pointer;
+}
+.header-section2 img {
+  height: 40rem;
+  width: 40rem;
+}
+.header-section2 {
+  position: relative;
+  margin-bottom: 7.2rem;
+}
+.header-section2-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  position: absolute;
+  cursor: pointer;
+}
+.header-section2_infoIcon1 {
+  top: 8%;
+  left: 32%;
+}
+.header-section2_infoIcon2 {
+  bottom: 20%;
+  left: 30%;
+}
+.header-section2_infoIcon3 {
+  bottom: 20%;
+  right: 28%;
+}
+.header-section1,
+.header-section3_link {
+  cursor: pointer;
+}
+.header-section3 {
+  color: white;
+  max-width: 120rem;
+}
+.header-section3 h3 {
+  font-size: 4.3rem;
+  font-weight: 300;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 50%, black 100%);
+  display: inline-block;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+.header-section3 > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+  line-height: 170%;
+  margin-bottom: 7.2rem;
+  min-height: 8.156rem;
+}
+.header-section3_links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.header-section3_links p {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.header-section3_link-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-bottom: 1rem;
+}
+.header-section3_link {
+  transition: 0.4s;
+}
+.color-grey {
+  color: #797979 !important;
+}
+.color-white {
+  color: #fff !important;
+}
+.display-none {
+  display: none;
+}
